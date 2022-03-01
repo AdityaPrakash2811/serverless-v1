@@ -1,6 +1,6 @@
 org: adityaprakash28
 app: aws-node-express-api
-service: aws-node-express-api
+service: test
 frameworkVersion: '3'
 
 provider:
