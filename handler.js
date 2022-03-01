@@ -4,13 +4,13 @@ const app = express();
 
 app.get("/", (req, res, next) => {
   return res.status(200).json({
-    message: "Hello from root!",
+    message: "Hello from staging!",
   });
 });
 
 app.get("/hello", (req, res, next) => {
   return res.status(200).json({
-    message: "Hello from path!",
+    message: "Hello from staging-path!",
   });
 });
 
